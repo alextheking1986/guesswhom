@@ -9,7 +9,7 @@ import android.net.NetworkInfo;
 
 /**
  * @author sameer
- *
+ * Checks if mobile has internet connection or not
  */
 public class ConnectionDetector {
 	 
