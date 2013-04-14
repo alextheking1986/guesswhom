@@ -1,5 +1,6 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    style="@style/layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
@@ -9,25 +10,59 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true" />
 
-    <Button
-        android:id="@+id/but"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
         android:layout_alignParentLeft="true"
-        android:layout_centerVertical="true"
-        android:onClick="onPress"
-        android:text="@string/button" />
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="70dp"
+        android:ems="10"
+        android:hint="@string/userhint"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="@string/passhint"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
 
     <Button
         android:id="@+id/signup"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/but"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginBottom="17dp"
-        android:text="@string/signup" 
-        android:onClick="onSignUp"
-        />
+        android:layout_height="50sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/signup"
+        android:onClick="onSignUp" />
+
+    <Button
+        android:id="@+id/but"
+        android:layout_width="fill_parent"
+        android:layout_height="50sp"
+        android:layout_above="@+id/signup"
+        android:layout_alignLeft="@+id/signup"
+        android:layout_alignRight="@+id/signup"
+        android:background="@drawable/signin"
+        android:onClick="onPress" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </LinearLayout>
+
+    
 
 </RelativeLayout>

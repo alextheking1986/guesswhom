@@ -3,8 +3,10 @@
     <string name="app_name">Gupshap</string>
     
     <string name="menu_settings">Settings</string>
-    <string name="title_activity_main">Bees Sawaal</string>
+    <string name="title_activity_main">GupShap</string>
     <string name="button">LOGIN</string>
     <string name="signup">SIGNUP</string>
     <string name="name">Name</string>
+    <string name="userhint">Login</string>
+    <string name="passhint">Password</string>
 </resources>
