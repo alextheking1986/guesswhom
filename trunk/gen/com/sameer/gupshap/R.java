@@ -8,57 +8,78 @@
 package com.sameer.gupshap;
 
 public final class R {
+    public static final class array {
+        public static final int coins=0x7f060000;
+        public static final int coins_values=0x7f060001;
+    }
     public static final class attr {
     }
     public static final class drawable {
         public static final int background=0x7f020000;
-        public static final int face=0x7f020001;
-        public static final int face2=0x7f020002;
-        public static final int fail=0x7f020003;
-        public static final int guess=0x7f020004;
-        public static final int ic_action_search=0x7f020005;
-        public static final int ic_launcher=0x7f020006;
-        public static final int icon=0x7f020007;
-        public static final int logo=0x7f020008;
-        public static final int mylogo=0x7f020009;
-        public static final int repeat_bg=0x7f02000a;
-        public static final int signin=0x7f02000b;
-        public static final int signup=0x7f02000c;
-        public static final int success=0x7f02000d;
+        public static final int edge=0x7f020001;
+        public static final int face=0x7f020002;
+        public static final int face2=0x7f020003;
+        public static final int fail=0x7f020004;
+        public static final int guess=0x7f020005;
+        public static final int heads=0x7f020006;
+        public static final int ic_action_search=0x7f020007;
+        public static final int ic_launcher=0x7f020008;
+        public static final int ic_menu_close_clear_cancel=0x7f020009;
+        public static final int ic_menu_info_details=0x7f02000a;
+        public static final int ic_menu_preferences=0x7f02000b;
+        public static final int ic_menu_view=0x7f02000c;
+        public static final int icon=0x7f02000d;
+        public static final int logo=0x7f02000e;
+        public static final int mylogo=0x7f02000f;
+        public static final int repeat_bg=0x7f020010;
+        public static final int signin=0x7f020011;
+        public static final int signup=0x7f020012;
+        public static final int success=0x7f020013;
+        public static final int tails=0x7f020014;
+        public static final int tick=0x7f020015;
+        public static final int unknown=0x7f020016;
     }
     public static final class id {
-        public static final int ButtonChatSend=0x7f08000e;
-        public static final int EditTextChatConversation=0x7f080009;
-        public static final int EditTextChatMyMessage=0x7f08000d;
-        public static final int ImageViewChatMyPicture=0x7f08000b;
-        public static final int ImageViewChatOtherUserPicture=0x7f080007;
-        public static final int LinearLayoutChatMyDetails=0x7f08000a;
-        public static final int LinearLayoutChatOtherUserDetails=0x7f080006;
-        public static final int TextView01=0x7f080012;
-        public static final int TextViewChatOtherUserDetails=0x7f080008;
-        public static final int btnLogin=0x7f08001c;
-        public static final int btnRegister=0x7f08001d;
-        public static final int but=0x7f080004;
-        public static final int button1=0x7f08000c;
-        public static final int button2=0x7f080016;
-        public static final int button3=0x7f080015;
-        public static final int editText1=0x7f080001;
-        public static final int editText2=0x7f080002;
-        public static final int footer=0x7f080018;
-        public static final int header=0x7f080017;
-        public static final int linearLayout1=0x7f080005;
-        public static final int menu_settings=0x7f08001f;
-        public static final int reg_email=0x7f08001a;
-        public static final int reg_name=0x7f080019;
-        public static final int reg_password=0x7f08001b;
-        public static final int signup=0x7f080003;
-        public static final int text=0x7f080000;
-        public static final int textView1=0x7f080013;
-        public static final int textView2=0x7f08001e;
-        public static final int user_email=0x7f080011;
-        public static final int user_id=0x7f08000f;
-        public static final int user_name=0x7f080010;
-        public static final int username=0x7f080014;
+        public static final int ButtonChatSend=0x7f0a000e;
+        public static final int EditTextChatConversation=0x7f0a0009;
+        public static final int EditTextChatMyMessage=0x7f0a000d;
+        public static final int ImageViewChatMyPicture=0x7f0a000b;
+        public static final int ImageViewChatOtherUserPicture=0x7f0a0007;
+        public static final int LinearLayoutChatMyDetails=0x7f0a000a;
+        public static final int LinearLayoutChatOtherUserDetails=0x7f0a0006;
+        public static final int TextView01=0x7f0a0012;
+        public static final int TextViewChatOtherUserDetails=0x7f0a0008;
+        public static final int btnLogin=0x7f0a0024;
+        public static final int btnRegister=0x7f0a0025;
+        public static final int but=0x7f0a0004;
+        public static final int button1=0x7f0a000c;
+        public static final int button2=0x7f0a001e;
+        public static final int button3=0x7f0a001d;
+        public static final int coin_image_view=0x7f0a0015;
+        public static final int editText1=0x7f0a0001;
+        public static final int editText2=0x7f0a0002;
+        public static final int footer=0x7f0a0020;
+        public static final int header=0x7f0a001f;
+        public static final int heads_stat_text_view=0x7f0a0019;
+        public static final int instructions_text_view=0x7f0a0017;
+        public static final int linearLayout1=0x7f0a0005;
+        public static final int menu_settings=0x7f0a0027;
+        public static final int reg_email=0x7f0a0022;
+        public static final int reg_name=0x7f0a0021;
+        public static final int reg_password=0x7f0a0023;
+        public static final int result_text_view=0x7f0a0016;
+        public static final int signup=0x7f0a0003;
+        public static final int statistics_row=0x7f0a0018;
+        public static final int stats_reset_button=0x7f0a001b;
+        public static final int table_layout=0x7f0a0014;
+        public static final int tails_stat_text_view=0x7f0a001a;
+        public static final int text=0x7f0a0000;
+        public static final int textView1=0x7f0a0013;
+        public static final int textView2=0x7f0a0026;
+        public static final int user_email=0x7f0a0011;
+        public static final int user_id=0x7f0a000f;
+        public static final int user_name=0x7f0a0010;
+        public static final int username=0x7f0a001c;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -68,33 +89,83 @@ public final class R {
         public static final int header_gradient=0x7f030004;
         public static final int list_item_albums=0x7f030005;
         public static final int login=0x7f030006;
-        public static final int playscreen=0x7f030007;
-        public static final int register=0x7f030008;
-        public static final int signup=0x7f030009;
+        public static final int main=0x7f030007;
+        public static final int playscreen=0x7f030008;
+        public static final int register=0x7f030009;
+        public static final int signup=0x7f03000a;
     }
     public static final class menu {
-        public static final int activity_main=0x7f070000;
+        public static final int activity_main=0x7f090000;
     }
     public static final class raw {
-        public static final int sniper=0x7f040000;
+        public static final int coin=0x7f050000;
+        public static final int oneup=0x7f050001;
+        public static final int sniper=0x7f050002;
     }
     public static final class string {
-        public static final int app_name=0x7f050000;
-        public static final int button=0x7f050003;
-        public static final int menu_settings=0x7f050001;
-        public static final int name=0x7f050005;
-        public static final int passhint=0x7f050007;
-        public static final int signup=0x7f050004;
-        public static final int title_activity_main=0x7f050002;
-        public static final int userhint=0x7f050006;
+        /** 
+    ADDED FOR COIN FLIP 
+    
+         */
+        public static final int about_activity_title=0x7f070008;
+        public static final int about_menu_title=0x7f070009;
+        public static final int about_text=0x7f07000a;
+        public static final int app_name=0x7f070000;
+        public static final int button=0x7f070003;
+        public static final int coin_animation=0x7f07000b;
+        public static final int exit=0x7f07000c;
+        public static final int heads=0x7f07000f;
+        public static final int instructions_tap_shake_tv=0x7f07000d;
+        public static final int instructions_tap_tv=0x7f07000e;
+        public static final int max=0x7f070010;
+        public static final int menu_settings=0x7f070001;
+        public static final int milliseconds=0x7f070011;
+        public static final int min=0x7f070012;
+        public static final int name=0x7f070005;
+        public static final int passhint=0x7f070007;
+        public static final int rate_app_text=0x7f070013;
+        public static final int reset=0x7f070014;
+        public static final int selftest_activity_title=0x7f070015;
+        public static final int selftest_menu_title=0x7f070016;
+        public static final int settings_activity_title=0x7f070017;
+        public static final int settings_item_animation_summary=0x7f070018;
+        public static final int settings_item_animation_title=0x7f070019;
+        public static final int settings_item_coin_summary=0x7f07001a;
+        public static final int settings_item_coin_title=0x7f07001b;
+        public static final int settings_item_download_summary=0x7f07001c;
+        public static final int settings_item_download_title=0x7f07001d;
+        public static final int settings_item_force_summary=0x7f07001e;
+        public static final int settings_item_force_title=0x7f07001f;
+        public static final int settings_item_sound_summary=0x7f070020;
+        public static final int settings_item_sound_title=0x7f070021;
+        public static final int settings_item_stats_summary=0x7f070022;
+        public static final int settings_item_stats_title=0x7f070023;
+        public static final int settings_item_text_summary=0x7f070024;
+        public static final int settings_item_text_title=0x7f070025;
+        public static final int settings_item_vibrate_summary=0x7f070026;
+        public static final int settings_item_vibrate_title=0x7f070027;
+        public static final int settings_menu_title=0x7f070028;
+        public static final int signup=0x7f070004;
+        public static final int tails=0x7f070029;
+        public static final int time=0x7f07002a;
+        public static final int title_activity_main=0x7f070002;
+        public static final int toast_coin_error=0x7f07002b;
+        public static final int total=0x7f07002c;
+        public static final int unknown=0x7f07002d;
+        public static final int userhint=0x7f070006;
+        public static final int version=0x7f07002e;
     }
     public static final class style {
-        public static final int AppTheme=0x7f060000;
-        public static final int CodeFont=0x7f060001;
+        public static final int AppTheme=0x7f080000;
+        public static final int CodeFont=0x7f080001;
+        public static final int ThemeSelector=0x7f080004;
         /**     <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item> 
          */
-        public static final int button=0x7f060003;
-        public static final int layout=0x7f060002;
+        public static final int button=0x7f080003;
+        public static final int layout=0x7f080002;
+    }
+    public static final class xml {
+        public static final int settings=0x7f040000;
     }
 }

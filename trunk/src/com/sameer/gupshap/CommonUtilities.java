@@ -19,6 +19,9 @@ public final class CommonUtilities {
     static final String TAG_ID = "regId";
     static final String TAG_MSG = "message";
     static final String GAME_REQUEST="#game#chlng#";
+    static final String GAME_ACCEPT="#chlng#acptd#";
+    static final String GAME_REJECT="#chlng#rjctd#";
+    static final String GAME_ACK="#ack#ok#";
 
     static final String DISPLAY_MESSAGE_ACTION =
             "com.sameer.gupshap.DISPLAY_MESSAGE";
