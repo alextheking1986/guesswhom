@@ -2,7 +2,6 @@ package com.sameer.gupshap;
 
 import static com.sameer.gupshap.CommonUtilities.SERVER_URL;
 import static com.sameer.gupshap.CommonUtilities.TAG;
-import static com.sameer.gupshap.CommonUtilities.displayMessage;
 
 import java.io.IOException;
 import java.io.OutputStream;

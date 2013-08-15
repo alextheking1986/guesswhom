@@ -16,7 +16,6 @@ import org.json.JSONObject;
 
 import android.util.Log;
 import android.widget.TextView;
-import android.widget.Toast;
 
 /**
  * @author sameer
